@@ -50,7 +50,7 @@ int main()
 		    break;
 	}
 	printf("\nDo you want place more orders ? y & n :");
-    scanf("\n %c",&extra);
+        scanf("\n %c",&extra);
 	}while(extra == 'y');              
 	printf("Total Amount is:%d",amount);
 	return 0;
