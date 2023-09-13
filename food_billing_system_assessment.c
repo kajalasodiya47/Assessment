@@ -2,7 +2,7 @@
 int main()
 {
 	int ch,qty,choice,amount=0;                // declare all the variables
-    char extra;
+        char extra;
 	do{
 	printf("----------Manu---------");          // print all the food items in manu
 	printf("\n1.Pizza\t\tprice = 180rs/pcs");
