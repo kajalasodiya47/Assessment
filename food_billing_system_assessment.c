@@ -1,5 +1,5 @@
-#include<stdio.h>
-int main()
+#include<stdio.h>                // header file  
+int main()                       // main() function with int return type 
 {
 	int ch,qty,choice,amount=0;                // declare all the variables
         char extra;
@@ -52,6 +52,6 @@ int main()
 	printf("\nDo you want place more orders ? y & n :");
         scanf("\n %c",&extra);
 	}while(extra == 'y');              
-	printf("Total Amount is:%d",amount);
-	return 0;
+	printf("Total Amount is:%d",amount);  
+	return 0;                    // return 0 ends the main() function
 }
